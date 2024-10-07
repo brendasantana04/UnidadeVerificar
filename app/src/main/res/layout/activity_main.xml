@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Separador de Número"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite um número entre 100 e 999"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonSeparar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Separar Número"
+        android:layout_below="@id/editTextNumero"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSeparar"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+</RelativeLayout>
