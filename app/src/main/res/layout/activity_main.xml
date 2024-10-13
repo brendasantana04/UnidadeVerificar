@@ -16,7 +16,7 @@
     <EditText
         android:id="@+id/editTextNumero"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Digite um número entre 100 e 999"
         android:inputType="number" />
 
@@ -35,4 +35,11 @@
         android:layout_below="@id/buttonSeparar"
         android:layout_marginTop="16dp"
         android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="132dp"
+        android:text="BRENDA SANTANA - 1110482313042" />
 </RelativeLayout>
